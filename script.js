@@ -20,15 +20,15 @@ const scene = new THREE.Scene();
  */
 const textureLoader = new THREE.TextureLoader();
 const rockTextures = [
-    textureLoader.load('/public/rock1.jpg'), // Replace with actual URL for rock texture 1
-    textureLoader.load('/public/rock2.jpg'), // Replace with actual URL for rock texture 2
-    textureLoader.load('/public/rock3.jpg'), // Replace with actual URL for rock texture 3
+    textureLoader.load('/rock1.jpg'), // Replace with actual URL for rock texture 1
+    textureLoader.load('/rock2.jpg'), // Replace with actual URL for rock texture 2
+    textureLoader.load('/rock3.jpg'), // Replace with actual URL for rock texture 3
 ];
 
-const earthTexture = textureLoader.load('/public/final.jpg'); // Replace with your Earth texture URL
+const earthTexture = textureLoader.load('/final.jpg'); // Replace with your Earth texture URL
 
 // Load background texture
-const backgroundTexture = textureLoader.load('/public/try.jpg'); // Replace with your background image URL
+const backgroundTexture = textureLoader.load('/try.jpg'); // Replace with your background image URL
 scene.background = backgroundTexture; // Set the background texture
 
 /**
